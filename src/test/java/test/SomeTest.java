@@ -19,4 +19,10 @@ public class SomeTest extends BaseTest {
         Assertions.assertEquals(curUrl, "https://myinsurance-ift.astondevs.ru/info/health");
     }
 
+    @Test
+    public void anotherTest(){
+        int res = 10 + 10;
+        Assertions.assertEquals(res, 20);
+    }
+
 }
